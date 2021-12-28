@@ -4,7 +4,7 @@
   "description": "",
   "main": "app/index.js",
   "scripts": {
-    "build": "cd app && git clone https://github.com/Unzor/windows-2000-disk-image && cd windows-2000-disk-image && build.EXE && mv win2k.disk ../win2k.disk && rmdir windows-2000-disk-image /s /q",
+    "build": "cd app && git clone https://github.com/Unzor/windows-2000-disk-image && cd windows-2000-disk-image && build.EXE && ping -n 3 127.0.0.1>nul && mv win2k.disk ../win2k.disk && rmdir windows-2000-disk-image /s /q",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

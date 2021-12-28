@@ -4,7 +4,7 @@
  # Set up
  ```
  git clone https://github.com/Unzor/win2000-online
- cd kolibri-online
+ cd win2000-online
  npm run build
  npm install
  cd app

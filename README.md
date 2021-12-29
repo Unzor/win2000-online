@@ -8,6 +8,6 @@
  npm run build
  npm install
  cd app
- node .
+ npx electron .
  ```
 Navigate to http://localhost:8080 after setup.
